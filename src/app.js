@@ -18,16 +18,8 @@ function formatDate(timestamp){
     "Friday",
     "Saturday"]
   let day = days [date.getDay()];
-
-  return `${day}${hours}:${minutes}`;
-  
+  return `${day}${hours}:${minutes}`; 
 }
-
-
-
-
-
-
 function displayTemperature(response){
 
   let temperatureElement=document.querySelector("#temperature");
@@ -47,6 +39,7 @@ function displayTemperature(response){
 
 
 let apiKey="81cd692b3e95836375773084a629827f";
-let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=${apiKey}&units=metric`;
-console.log(apiUrl);
+let city="Paris";
+let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
 axios.get(apiUrl).then(displayTemperature);
