@@ -14,7 +14,7 @@ lu{
   padding: 0;
 }
 li{
-  list-style: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     color: rgb(135, 135, 135);
@@ -42,11 +42,16 @@ li{
 .weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
-  line-height: 1;
+  line-height: normal;
+  text-align: left;
   font-weight: 400;
+  user-select: none;
 }
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+.overview{
+  margin-bottom: 20px;
 }
