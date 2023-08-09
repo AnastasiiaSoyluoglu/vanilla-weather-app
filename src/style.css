@@ -1,9 +1,11 @@
 body {
   font-family: ariel, sans-serif;
+ 
 }
 
+
 h1 {
-  color: #878787;
+  color: #166678;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -18,7 +20,7 @@ li{
     margin: 0;
     padding: 0;
    
-    color: rgb(135, 135, 135);
+    color:#5a92af;
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
@@ -32,6 +34,7 @@ text-transform: capitalize;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background:linear-gradient(.25turn,#86c1d4,10%, #9cd9de );
 
 }
 .weather-app-wrapper {
@@ -73,7 +76,7 @@ text-decoration: none;
 .weather-forecast{
   margin-top:20px ;
   text-align: center;
-  color:#000;
+  color:#5a92af;
 
 }
 .weather-forecast-date{
